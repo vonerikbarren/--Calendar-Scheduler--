@@ -76,7 +76,7 @@ function App() {
             <Grid item xs={3}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
-                  <Typography> Hello React </Typography>
+                  <Typography> Forms </Typography>
                 </Paper>
               </Paper>
             </Grid>
@@ -84,7 +84,7 @@ function App() {
             <Grid item xs={9}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
-                  <Typography> Hello React </Typography>
+                  <Typography> Calendar </Typography>
                 </Paper>
               </Paper>
             </Grid>
@@ -95,7 +95,7 @@ function App() {
             <Grid item xs={12}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
-                  <Typography> Hello React </Typography>
+                  <Typography> Table </Typography>
                 </Paper>
               </Paper>
             </Grid>
