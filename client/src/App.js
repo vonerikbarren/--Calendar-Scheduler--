@@ -37,6 +37,7 @@ function App() {
 
   return (
     <div className="App-header">
+
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <Grid container spacing={3}>
@@ -44,12 +45,43 @@ function App() {
             <Grid item xs={8}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
-                  <Typography> Hello React </Typography>
+                  <Typography> LandingCandy </Typography>
                 </Paper>
               </Paper>
             </Grid>
 
             <Grid item xs={4}>
+              <Paper elevation={3} className={mui.paper}>
+                <Paper elevation={3} className={mui.paper}>
+                  <Typography> Menu </Typography>
+                </Paper>
+              </Paper>
+            </Grid>
+
+          </Grid>
+        </Grid>
+
+        <br />
+        <Grid item xs={12}>
+          <Paper elevation={0} className={mui.paper}>
+            <Paper elevation={0} className={mui.paper}>
+
+            </Paper>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={12}>
+          <Grid container spacing={3}>
+
+            <Grid item xs={3}>
+              <Paper elevation={3} className={mui.paper}>
+                <Paper elevation={3} className={mui.paper}>
+                  <Typography> Hello React </Typography>
+                </Paper>
+              </Paper>
+            </Grid>
+
+            <Grid item xs={9}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
                   <Typography> Hello React </Typography>
@@ -58,12 +90,23 @@ function App() {
             </Grid>
 
           </Grid>
+
+          <Grid container spacing={3}>
+            <Grid item xs={12}>
+              <Paper elevation={3} className={mui.paper}>
+                <Paper elevation={3} className={mui.paper}>
+                  <Typography> Hello React </Typography>
+                </Paper>
+              </Paper>
+            </Grid>
+          </Grid>
         </Grid>
 
+        <br />
         <Grid item xs={12}>
-          <Paper elevation={3} className={mui.paper}>
-            <Paper elevation={3} className={mui.paper}>
-              <Typography> Hello React </Typography>
+          <Paper elevation={0} className={mui.paper}>
+            <Paper elevation={0} className={mui.paper}>
+              <Typography></Typography>
             </Paper>
           </Paper>
         </Grid>
