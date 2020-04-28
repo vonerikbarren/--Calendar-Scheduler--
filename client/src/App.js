@@ -39,11 +39,25 @@ function App() {
     <div className="App-header">
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <Paper elevation={3} className={mui.paper}>
-            <Paper elevation={3} className={mui.paper}>
-              <Typography> Hello React </Typography>
-            </Paper>
-          </Paper>
+          <Grid container spacing={3}>
+
+            <Grid item xs={8}>
+              <Paper elevation={3} className={mui.paper}>
+                <Paper elevation={3} className={mui.paper}>
+                  <Typography> Hello React </Typography>
+                </Paper>
+              </Paper>
+            </Grid>
+
+            <Grid item xs={4}>
+              <Paper elevation={3} className={mui.paper}>
+                <Paper elevation={3} className={mui.paper}>
+                  <Typography> Hello React </Typography>
+                </Paper>
+              </Paper>
+            </Grid>
+
+          </Grid>
         </Grid>
 
         <Grid item xs={12}>
