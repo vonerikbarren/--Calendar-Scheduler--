@@ -57,7 +57,10 @@ function App() {
             <Grid item xs={4}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
-                  <Typography> Menu </Typography>
+                  <MenuButtons ButtonName="Watch" />
+                  <MenuButtons ButtonName="Insert Date" />
+                  <MenuButtons ButtonName="Edit Date" />
+                  <MenuButtons ButtonName="Delete Date" />
                 </Paper>
               </Paper>
             </Grid>

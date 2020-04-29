@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: "white",
-    backgroundColor: "Transparent"
+    backgroundColor: "White"
   },
   grid: {
     backgroundColor: "black"
@@ -28,13 +28,14 @@ const useStyles = makeStyles((theme) => ({
   button: {
     backgroundColor: "#282c34",
     color: "white",
+    borderColor: "white",
   }
 
 
 
 }));
 
-export default function MenuButtons() {
+export default function MenuButtons(props) {
   const mui = useStyles();
 
   return (
@@ -42,7 +43,7 @@ export default function MenuButtons() {
     <Grid container spacing={3}>
       <Grid item xs={12}>
         <Paper elevation={3} className={mui.paper}>
-          <Button> Test </Button>
+          <Button> {props.ButtonName} </Button>
         </Paper>
       </Grid>
     </Grid>
