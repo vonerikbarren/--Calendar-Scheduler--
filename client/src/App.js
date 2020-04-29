@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 
 // --> Other Components to be imported <--
 import LandingCandy from './Components/Views/LandingCandy';
+import MenuButtons from './Components/ComponentParts/MenuButtons/MenuButtons';
 
 // --> Initialization of makeStyles from Material-UI <--
 const useStyles = makeStyles((theme) => ({
