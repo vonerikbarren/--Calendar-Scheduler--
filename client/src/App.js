@@ -46,7 +46,8 @@ const useStyles = makeStyles((theme) => ({
   },
   Typography: {
     fontSize: "50px",
-    color: "DarkMagenta",
+    color: "White",
+    textAlign: 'center',
   }
 
 
