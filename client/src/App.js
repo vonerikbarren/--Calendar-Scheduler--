@@ -43,6 +43,10 @@ const useStyles = makeStyles((theme) => ({
   button: {
     backgroundColor: "#282c34",
     color: "white",
+  },
+  Typography: {
+    fontSize: "50px",
+    color: "DarkMagenta",
   }
 
 
@@ -58,6 +62,13 @@ function App() {
 
       <Grid container spacing={3}>
         <Grid item xs={12}>
+
+          <Grid container spacing={3}>
+            <Grid item xs={12}>
+              <Typography className={mui.Typography}>Hello Calendar Scheduler</Typography>
+            </Grid>
+          </Grid>
+
           <Grid container spacing={3}>
 
             <Grid item xs={8}>
