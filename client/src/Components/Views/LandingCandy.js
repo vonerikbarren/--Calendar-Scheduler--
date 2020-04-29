@@ -45,7 +45,7 @@ export default function LandingCandy() {
     <Grid container spacing={3}>
       <Grid item xs={12}>
         <div className="LandingCandy">
-          Hello World
+          <p>This is a Test</p>
         </div>
       </Grid>
     </Grid>
