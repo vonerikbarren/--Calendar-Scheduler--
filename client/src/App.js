@@ -9,6 +9,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 // --> Other Components to be imported <--
+import LandingCandy from './Components/Views/LandingCandy';
 
 // --> Initialization of makeStyles from Material-UI <--
 const useStyles = makeStyles((theme) => ({
@@ -47,7 +48,7 @@ function App() {
             <Grid item xs={8}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
-                  <Typography> LandingCandy </Typography>
+                  <LandingCandy />
                 </Paper>
               </Paper>
             </Grid>

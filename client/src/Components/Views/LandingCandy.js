@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: "white",
-    height: 200px,
+    height: "200vmin",
     backgroundColor: "white"
   },
   grid: {
