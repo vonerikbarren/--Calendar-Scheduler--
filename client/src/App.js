@@ -7,10 +7,24 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import { ViewState } from '@devexpress/dx-react-scheduler';
+import {
+  Scheduler,
+  DayView,
+  Appointments,
+} from '@devexpress/dx-react-scheduler-material-ui';
 
 // --> Other Components to be imported <--
 import LandingCandy from './Components/Views/LandingCandy';
 import MenuButtons from './Components/ComponentParts/MenuButtons/MenuButtons';
+// import ScheduleTest from './Components/ComponentParts/ScheduleTest/ScheduleTest';
+
+// --> Data <--
+const currentDate = '2018-11-01';
+const schedulerData = [
+  { startDate: '2018-11-01T09:45', endDate: '2018-11-01T11:00', title: 'Meeting' },
+  { startDate: '2018-11-01T12:00', endDate: '2018-11-01T13:30', title: 'Go to a gym' },
+];
 
 // --> Initialization of makeStyles from Material-UI <--
 const useStyles = makeStyles((theme) => ({
@@ -91,7 +105,20 @@ function App() {
             <Grid item xs={9}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
-                  <Typography> Calendar </Typography>
+                  <Paper>
+                    <Scheduler
+                      data={schedulerData}
+                    >
+                      <ViewState
+                        currentDate={currentDate}
+                      />
+                      <DayView
+                        startDayHour={9}
+                        endDayHour={14}
+                      />
+                      <Appointments />
+                    </Scheduler>
+                  </Paper>
                 </Paper>
               </Paper>
             </Grid>
