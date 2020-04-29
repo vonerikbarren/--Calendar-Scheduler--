@@ -46,6 +46,7 @@ export default function LandingCandy() {
       <Grid item xs={12}>
         <div className="LandingCandy">
           <p>This is a Test</p>
+          {/*{Put <a> tag here so we can work with SVGs tomorrow} */}
         </div>
       </Grid>
     </Grid>
