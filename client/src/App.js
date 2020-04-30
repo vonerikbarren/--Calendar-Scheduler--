@@ -17,6 +17,7 @@ import {
 // --> Other Components to be imported <--
 import LandingCandy from './Components/Views/LandingCandy';
 import MenuButtons from './Components/ComponentParts/MenuButtons/MenuButtons';
+import Header from './Components/ComponentParts/Header/Header';
 // import ScheduleTest from './Components/ComponentParts/ScheduleTest/ScheduleTest';
 
 // --> Data <--
@@ -66,7 +67,7 @@ function App() {
 
           <Grid container spacing={3}>
             <Grid item xs={12}>
-              <Typography className={mui.Typography}>Hello Calendar Scheduler</Typography>
+
             </Grid>
           </Grid>
 
