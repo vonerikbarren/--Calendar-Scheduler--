@@ -1,4 +1,6 @@
 // --> React Strict <--
+import React from 'react';
+
 
 // --> Material-UI specific <--
 
