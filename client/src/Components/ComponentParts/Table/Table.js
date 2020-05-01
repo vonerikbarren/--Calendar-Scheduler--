@@ -10,6 +10,34 @@ import Typography from '@material-ui/core/Typography';
 
 // --> Components imported <--
 
-// --> makeStyles const <--
+// --> Material-UI makeStyles <--
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: "white",
+    height: "200vmin",
+    backgroundColor: "white"
+  },
+  grid: {
+    backgroundColor: "black"
+  },
+  button: {
+    backgroundColor: "#282c34",
+    color: "white",
+  },
+  Typography: {
+    fontSize: "50px",
+    color: "White",
+    textAlign: 'center',
+  }
+
+
+
+}));
 
 // --> Other <--
+
