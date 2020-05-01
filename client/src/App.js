@@ -67,7 +67,9 @@ function App() {
 
           <Grid container spacing={3}>
             <Grid item xs={12}>
-              <Header />
+              <Paper elevation={0} className={mui.paper}>
+                <Typography className={mui.Typography}>Hello Calendar Scheduler</Typography>
+              </Paper>
             </Grid>
           </Grid>
 
