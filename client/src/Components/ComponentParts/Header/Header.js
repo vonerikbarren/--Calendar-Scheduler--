@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.css';
 
 // --> Initializing Material-UI <--
-import { makeStyles, MuiThemeProvider } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
@@ -29,6 +29,11 @@ const useStyles = makeStyles((theme) => ({
   button: {
     backgroundColor: "#282c34",
     color: "white",
+  },
+  Typography: {
+    fontSize: "50px",
+    color: "White",
+    textAlign: 'center',
   }
 
 
