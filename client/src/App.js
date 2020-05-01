@@ -18,6 +18,7 @@ import {
 import LandingCandy from './Components/Views/LandingCandy';
 import MenuButtons from './Components/ComponentParts/MenuButtons/MenuButtons';
 import Header from './Components/ComponentParts/Header/Header';
+import UserTable from './Components/ComponentParts/Table/Table';
 // import ScheduleTest from './Components/ComponentParts/ScheduleTest/ScheduleTest';
 
 // --> Data <--
@@ -144,7 +145,7 @@ function App() {
             <Grid item xs={12}>
               <Paper elevation={3} className={mui.paper}>
                 <Paper elevation={3} className={mui.paper}>
-                  <Typography> Table </Typography>
+                  <UserTable />
                 </Paper>
               </Paper>
             </Grid>
