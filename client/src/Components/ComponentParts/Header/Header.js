@@ -1,6 +1,6 @@
 // --> Initializing React <--
 import React from 'react';
-import './LandingCandy.css';
+import './Header.css';
 
 // --> Initializing Material-UI <--
 import { makeStyles, MuiThemeProvider } from '@material-ui/core/styles';
@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-export default function LandingCandy() {
+export default function Header() {
 
   const mui = useStyles();
 

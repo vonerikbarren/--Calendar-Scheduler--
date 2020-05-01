@@ -67,7 +67,7 @@ function App() {
 
           <Grid container spacing={3}>
             <Grid item xs={12}>
-              <Header />
+
             </Grid>
           </Grid>
 
