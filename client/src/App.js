@@ -19,6 +19,7 @@ import LandingCandy from './Components/Views/LandingCandy';
 import MenuButtons from './Components/ComponentParts/MenuButtons/MenuButtons';
 import Header from './Components/ComponentParts/Header/Header';
 import UserTable from './Components/ComponentParts/Table/Table';
+import Footer from './Components/ComponentParts/Footer/Footer';
 // import ScheduleTest from './Components/ComponentParts/ScheduleTest/ScheduleTest';
 
 // --> Data <--
