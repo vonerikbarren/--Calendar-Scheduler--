@@ -165,7 +165,7 @@ function App() {
         <Grid item xs={12}>
           <Paper elevation={3} className={mui.paper}>
             <Paper elevation={3} className={mui.paper}>
-              <Typography> Footer </Typography>
+              <Footer />
             </Paper>
           </Paper>
         </Grid>
