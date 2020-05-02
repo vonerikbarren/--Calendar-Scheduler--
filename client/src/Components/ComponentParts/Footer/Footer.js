@@ -39,3 +39,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 // --> Other <--
 
+export default function Footer() {
+
+  return (
+    
+  )
+}
